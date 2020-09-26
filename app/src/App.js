@@ -1,13 +1,11 @@
 import React from "react";
+import Card from "./components/Card";
 
-import "./App.css";
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>Project 3 react redux</h1>
+      <h1>RICK AND MORTY CARDS</h1>
+      <Card />
     </div>
   );
 }
-
-export default App;
